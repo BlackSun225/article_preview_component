@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('.bshare').click(function(){
+    $('.social').toggle();
+    $('#dark').toggle();
+  });
+  $('.mbshare').click(function(){
+    $('.msocial').show();
+  });
+  $('#dark2').click(function(){
+    $('.msocial').hide();
+  });
+});
